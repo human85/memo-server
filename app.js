@@ -7,7 +7,7 @@ const todosRouter = require('./routes/todos')
 
 // 设置 Mongoose 连接
 const mongoose = require('mongoose')
-const PASSWORD = 'fwXHPgcgq6MS10oq'
+const PASSWORD = '数据库密码'
 const mongoDB = `mongodb+srv://chenhao:${PASSWORD}@cluster0.irxgimw.mongodb.net/?retryWrites=true&w=majority`
 
 mongoose
